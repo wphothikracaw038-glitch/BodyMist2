@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สินค้าทั้งหมด — Body Scent</title>
+  <meta name="description" content="บอดี้สเปรย์และโรลออน Body Scent เลือกดูตามมู้ด Fresh, Sweet, Confident และ Romance">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* page-specific: calmer page title for a listing page */
+    .page-title h1 { font-size: clamp(2rem, 4vw, 3rem); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">Body Scent</a>
+      <nav class="nav" aria-label="เมนูหลัก">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html" aria-current="page">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section__head page-title">
+          <h1>สินค้าทั้งหมด</h1>
+          <span class="rule"></span>
+          <p class="lead" style="margin-top: var(--s-3);">เลือกดูตามมู้ดที่ใช่ แล้วกดสั่งซื้อได้ทันที</p>
+        </div>
+
+        <div id="filter-bar" role="group" aria-label="กรองสินค้าตามมู้ด"></div>
+        <div id="product-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a class="brand" href="index.html">Body Scent</a>
+      <p>© 2026 Body Scent สงวนลิขสิทธิ์</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
